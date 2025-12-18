@@ -3,6 +3,8 @@ server:
 
 spring:
   datasource:
+    hikari:
+      initialization-fail-timeout: 60000
     url: ${SPRING_DATASOURCE_URL}
     username: ${SPRING_DATASOURCE_USERNAME}
     password: ${SPRING_DATASOURCE_PASSWORD}
