@@ -1,5 +1,3 @@
-
-```md
 # PTM · Product Inventory (Full Stack)
 
 Monorepo con:
@@ -8,8 +6,6 @@ Monorepo con:
 - **Vite + React + Tailwind** servido por **Nginx** (contenedor `crud_web`)
 
 La UI consume el backend por `/api/...` a través de Nginx, así que no hay problemas de CORS.
-
----
 
 ## Requisitos
 - Docker Desktop instalado y corriendo
